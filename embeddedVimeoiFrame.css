@@ -1,0 +1,50 @@
+.iframe_container {
+  border: solid blue;
+/*   width: 100%; */
+}
+
+.header_reel_embeddedVideo {
+  position: absolute; top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border: solid 4px #000;
+  z-index: -1;
+}
+
+.header_reel_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 2em;
+  color: #ffffff;
+  border: solid 4px #800;
+  background-color: gray;
+  opacity: .5;
+  z-index: 1;
+}
+
+.header_reel_play_button {
+  position:absolute;
+  top:70%;
+/*  why is this not center aligned?  */
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  border: solid red;
+}
+
+.yellow_inline_text {
+  color: #ffd42a;
+}
+
+
+
+.some_extra_thing {
+  padding-top: 10px;
+  font-size: 8em;
+  background-color: blue;
+}
